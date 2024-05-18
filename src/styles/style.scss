@@ -5,6 +5,12 @@ $focus-color: #ff9800;
 $header-text: "Slackey", cursive;
 $title-text: "Cherry Cream Soda", recursive;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,7 +34,7 @@ body {
 
 header {
   .hero {
-    background-image: url("../public/images/heros/hero-image_2.jpg");
+    background-image: url("../public/images/heros/hero-image_2-small.jpg");
     background-position: center;
 
     .hero_inner {
@@ -154,7 +160,7 @@ main {
 
     img {
       // width: 100%;
-      width: 350px;
+      width: 250px;
       height: 180px;
       padding-bottom: 12px;
       border-radius: 8px;
@@ -561,6 +567,9 @@ main {
 
 @media screen and (min-width: 1200px) {
   header {
+    .hero {
+      background-image: url("../public/images/heros/hero-image_2-large.jpg");
+    }
     .hero_inner {
       font-size: 60px;
     }
@@ -596,6 +605,7 @@ main {
       min-height: 1500px;
 
       img {
+        width: 100%;
         min-height: 380px;
       }
 
