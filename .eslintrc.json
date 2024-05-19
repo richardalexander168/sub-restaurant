@@ -7,7 +7,7 @@
         "codeceptjs/codeceptjs": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base", "plugin:codeceptjs/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": 12,
